@@ -3,10 +3,12 @@ import React from 'react';
 function Footer() {
     return (
         <div>
-            <footer>
+            <footer className="footer footer-container">
                 <h5>Suscríbete a nuestro Newsletter</h5>
-                <input type="text" placeholder="Tu correo electrónico"></input>
-                <button>Suscribirme</button>
+                <div className="form-newsletter">
+                    <input type="text" placeholder="Tu correo electrónico"></input>
+                    <button>Suscribirme</button>
+                </div>
             </footer>
         </div>
     );
