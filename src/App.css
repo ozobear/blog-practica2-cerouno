@@ -13,9 +13,19 @@ hr {
 }
 
 .navbar-start {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
   flex-grow: 1;
   justify-content: center;
   text-align: center;
+  color: inherit;
+}
+
+.navbar-start a {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 30px;
+  color: firebrick;
 }
 
 .category-name {
